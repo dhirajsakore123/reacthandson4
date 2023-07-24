@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Students = () => {
 
@@ -52,6 +53,7 @@ change:'Edit'
   return (
     <div>
     <h1>Students Details</h1>
+    <button className='btn1'>Add new student</button>
     <div className='table-container'>
 <table className='table'>
     <tr>
@@ -69,7 +71,7 @@ change:'Edit'
             <td>{item.age}</td>
             <td>{item.course}</td>
             <td>{item.batch}</td>
-            <td>{item.change}</td>
+            <td> <NavLink to='#'>{item.change}</NavLink></td>
             
             </tr>  
         )

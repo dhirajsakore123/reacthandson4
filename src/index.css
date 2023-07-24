@@ -42,3 +42,12 @@ text-align: center;
  position:relative;
  top: 5vw;
 }
+.btn1{
+  position:absolute;
+  top: 18vh;
+  right: 2vw;
+padding: 0 1vw ;
+  font-size: 3vh;
+  border-radius: 10px;
+  background-color: rgb(138, 231, 231);
+}
